@@ -239,9 +239,9 @@
     .img{
         width: 300px;
         margin-left: 100px;
-        height: 300px;
+        height: 350px;
         margin-top: 20px;
-        
+
     }
     .div{
         margin-top: 10px;
@@ -298,14 +298,8 @@
     margin-top:-90px;
 }
 
-.div4 {
-    margin-bottom: -30px;
-    line-height: 3;
-    margin-top: 40px;
-    margin-left: 950px;
-}
 .img3{
-   position: absolute;
+    position: absolute;
     margin-top: 100px;
 
 }
@@ -323,14 +317,13 @@
     color: white;
     font-weight: 500;
     background-color: #947B8A;
-    margin-left: 1100px;
+    margin-left: 1050px;
     width: 390px;
     text-align: center;
     text-decoration: none;
     border-radius: 31px;
-    height: 80px;
-    transition: background-color .1s linear;
-    margin-top: 120px;
+    height: 60px;
+    margin-top: -10px;
 
 }
 .button1:hover{
@@ -339,8 +332,8 @@
 
 @media screen and (max-width: 375px) {
     .img3 {
-        width: 330px;
-        margin-top: 420px;
+        width: 300px;
+        margin-top: 450px;
         margin-left: 50px;
     }
 
@@ -351,12 +344,14 @@
     }
 
     .header2 {
+        width: 250px;
         font-size: 20px;
         margin-left: 70px;
         padding-top: 170px;
     }
 
     .p2as {
+        width: 250px;
         font-size: 20px;
         margin-left: 90px;
         margin-top: -70px;
@@ -365,26 +360,24 @@
     .p3as {
         font-size: 15px;
         margin-left: 50px;
-        margin-top: -70px;
+        margin-top: -90px;
         width: 300px;
         line-height: 20px;
     }
 
     .button1 {
         font-size: 13px;
-        width: 195px;
-        height: 40px;
-        margin-left: 150px;
-        margin-top: 100px;
-        position: absolute;
+        width: 185px;
+        height: 30px;
+        margin-left: 80px;
+        margin-top: 5px;
+
     }
 
-    .div4 {
-        line-height: 3;
-        margin-top: 40px;
-        margin-left: 50px;
-        position: absolute;
+    .container1 {
+        width: 359px;
     }
+
 }
 
 /*Benefits======================
@@ -786,7 +779,7 @@
     .div4 {
         margin-bottom: -30px;
         line-height: 3;
-        margin-top: -60px;
+        margin-top: -90px;
         margin-left: -670px;
     }
 
@@ -969,29 +962,26 @@
     overflow: auto;
 
 }
- @media screen and (max-width: 375px) {
-     .window {
-         width: 300px;
-         height: 320px;
-         margin-left: 30px;
-     }
-     .form {
-         width:150px;
-         height: 180px;
-     }
-     .input {
-         width: 190px;
-         margin-left: -20px;
-     }
-     .reg2 {
-         font-size: 15px;
+@media screen and (max-width: 375px) {
+    .window {
+        width: 280px;
+        height: 300px;
+        margin-left: 50px;
+    }
+    .form {
+        width:150px;
+        height: 180px;
+    }
+    .input {
+        width: 190px;
+        margin-left: -20px;
+    }
+    .reg2 {
+        font-size: 15px;
 
-     }
+    }
 
- }
-
-
-
+}
 
 
 
