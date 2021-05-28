@@ -970,9 +970,25 @@
 
 }
  @media screen and (max-width: 375px) {
+     .window {
+         width: 300px;
+         height: 320px;
+         margin-left: 30px;
+     }
+     .form {
+         width:150px;
+         height: 180px;
+     }
+     .input {
+         width: 190px;
+         margin-left: -20px;
+     }
+     .reg2 {
+         font-size: 15px;
+
+     }
 
  }
-
 
 
 
